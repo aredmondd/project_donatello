@@ -1,0 +1,9 @@
+:root {
+    --white: #E9F1F7;
+    --sand: #E7DFC7;
+    --electric-purple: #613DE6;
+}
+
+body {
+    background-color: var(--white);
+}
