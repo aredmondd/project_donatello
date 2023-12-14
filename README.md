@@ -1,5 +1,4 @@
 # project donatello
 
-winter break 2023 project <br>
-a continuation of pursuit of the backlog <br>
-except i'm way better at programming
+winter break 2023 project: a continuation of pursuit of the backlog, except i'm way better at programming <br>
+donny would love this one.
