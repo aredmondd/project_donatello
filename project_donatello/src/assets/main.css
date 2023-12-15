@@ -4,6 +4,11 @@
     --electric-purple: #613DE6;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: var(--white);
+    background-color: var(--sand);
 }
