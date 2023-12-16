@@ -1,11 +1,12 @@
 <template>
     <div class="navbar">
         <RouterLink to="/"><h1>Website Name</h1></RouterLink>
-        <nav class="nav-links highlights">
+        <nav class="nav-links">
             <RouterLink to="/">Home</RouterLink> 
             <RouterLink to="/Backlog">Backlog</RouterLink> 
             <RouterLink to="/Finished">Completed</RouterLink> 
             <RouterLink to="/Dropped">Dropped</RouterLink> 
+            <RouterLink to="/More">More</RouterLink> 
         </nav>
     </div>
 </template>
@@ -18,11 +19,11 @@ import { RouterLink } from 'vue-router'
     * {
         font-family: 'DM Serif Display'
     }
+
     a {
         text-decoration: none;
         margin-right: 10px;
         color: var(--white);
-        box-shadow: inset 0 0 0 0 var(--electric-purple);
         font-family: 'Inter';
     }
 
@@ -30,7 +31,6 @@ import { RouterLink } from 'vue-router'
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: black;
         padding: 10px;
     }
 
@@ -39,11 +39,12 @@ import { RouterLink } from 'vue-router'
     }
 
     .nav-links > .router-link-active {
-        color: var(--electric-purple)
+        color: var(--red)
     }
 
     h1 {
         cursor: pointer;
+        color: var(--red);
     }
 
 </style>

@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import BacklogView from '../views/BacklogView.vue'
 import FinishedView from '../views/FinishedView.vue'
 import DroppedView from '../views/DroppedView.vue'
+import MoreView from '../views/MoreView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +27,11 @@ const router = createRouter({
       path: '/Dropped',
       name: 'Dropped',
       component: DroppedView
+    },
+    {
+      path: '/More',
+      name: 'More',
+      component: MoreView
     },
   ]
 })

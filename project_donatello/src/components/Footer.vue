@@ -12,7 +12,8 @@
         display: flex;
         align-items: flex-end;
         justify-content: center;
-        font-family: 'Inter'
+        font-family: 'Inter';
+        color: var(--white);
     }
     .credits {
         text-align: center;
